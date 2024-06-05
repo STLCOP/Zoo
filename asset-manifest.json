@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/STLCOP/Zoo.git/static/css/main.381b1816.css",
-    "main.js": "/STLCOP/Zoo.git/static/js/main.2497e779.js",
-    "static/js/453.3fa9afb6.chunk.js": "/STLCOP/Zoo.git/static/js/453.3fa9afb6.chunk.js",
-    "index.html": "/STLCOP/Zoo.git/index.html",
-    "main.381b1816.css.map": "/STLCOP/Zoo.git/static/css/main.381b1816.css.map",
-    "main.2497e779.js.map": "/STLCOP/Zoo.git/static/js/main.2497e779.js.map",
-    "453.3fa9afb6.chunk.js.map": "/STLCOP/Zoo.git/static/js/453.3fa9afb6.chunk.js.map"
+    "main.css": "/Zoo.git/static/css/main.381b1816.css",
+    "main.js": "/Zoo.git/static/js/main.fa9eaa2c.js",
+    "static/js/453.3fa9afb6.chunk.js": "/Zoo.git/static/js/453.3fa9afb6.chunk.js",
+    "index.html": "/Zoo.git/index.html",
+    "main.381b1816.css.map": "/Zoo.git/static/css/main.381b1816.css.map",
+    "main.fa9eaa2c.js.map": "/Zoo.git/static/js/main.fa9eaa2c.js.map",
+    "453.3fa9afb6.chunk.js.map": "/Zoo.git/static/js/453.3fa9afb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.381b1816.css",
-    "static/js/main.2497e779.js"
+    "static/js/main.fa9eaa2c.js"
   ]
 }
