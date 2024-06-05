@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/STLCOP/Zoo.git/static/css/main.381b1816.css",
+    "main.js": "/STLCOP/Zoo.git/static/js/main.2497e779.js",
+    "static/js/453.3fa9afb6.chunk.js": "/STLCOP/Zoo.git/static/js/453.3fa9afb6.chunk.js",
+    "index.html": "/STLCOP/Zoo.git/index.html",
+    "main.381b1816.css.map": "/STLCOP/Zoo.git/static/css/main.381b1816.css.map",
+    "main.2497e779.js.map": "/STLCOP/Zoo.git/static/js/main.2497e779.js.map",
+    "453.3fa9afb6.chunk.js.map": "/STLCOP/Zoo.git/static/js/453.3fa9afb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.381b1816.css",
+    "static/js/main.2497e779.js"
+  ]
+}
