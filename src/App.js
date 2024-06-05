@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Mammals from './pages/Mammals';
+import Birds from './pages/Birds';
+import Reptiles from './pages/Reptiles';
+import AnimalDetail from './components/AnimalDetail';
+
+const App = () => (
+  <Router>
+    <div className="app">
+      <Header />
+      <Switch>
+        <Route path="/" exact ><Home/></Route>
+        <Route path="/mammals"><Mammals/> </Route>
+        <Route path="/Birds"><Birds/> </Route>
+        <Route path="/reptiles"><Reptiles/> </Route>
+        <Route path="/animal/:id" element={AnimalDetail} />
+      </Switch>
+      <Footer />
     </div>
-  );
-}
+  </Router>
+);
 
 export default App;
